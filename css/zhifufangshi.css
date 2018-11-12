@@ -1,0 +1,103 @@
+/*
+* @Author: 13545
+* @Date:   2018-11-12 10:51:56
+* @Last Modified by:   13545
+* @Last Modified time: 2018-11-12 16:04:16
+*/
+header{
+	width: 7.5rem;
+	height: 1.2rem;
+	background: #F19149;
+	position: relative;
+}
+header .icon-fanhui{
+	font-size: 0.6rem;
+	color:#F7C198;
+	position: absolute;
+	left: 1rem;
+	top: 0.3rem;
+}
+header .title{
+	width: 7.5rem;
+	height: 1.2rem;
+	float: left;
+	color: #FCEFE7;
+	text-align: center;
+	/* line-height: 0.9rem; */
+}
+header .title P{
+	font-size: 0.5rem;
+	color: #FCEFE7;
+}
+header .title pre{
+	font-size: 0.5rem;
+	color: #FCEFE7;
+}
+nav{
+	width: 7.5rem;
+	height: 100%;
+}
+nav .btn{
+	width: 5rem;
+	height: 1.5rem;
+	background: #F19149;
+	margin: 0 auto;
+	margin-top: 0.5rem;
+	border-radius: 0.1rem;
+}
+nav .btn i{
+	font-size: 1rem;
+	color: white;
+    float: left;
+    padding-top: 0.2rem;
+}
+nav .btn p{
+	font-size: 0.4rem;
+	color: white;
+    padding-top: 0.2rem;
+}
+nav .btn pre{
+	font-size: 0.4rem;
+	color: white;
+}
+nav .t1{
+	border-bottom: 1px solid #F19149;
+	text-align: center;
+}
+nav .t1 p{
+	font-size: 0.4rem;
+	color: #F19149;
+    padding-top: 0.2rem;
+}
+nav .t1 pre{
+	font-size: 0.4rem;
+	color: #F19149;
+}
+main{
+	width: 7.5rem;
+	/* height: 7rem; */
+	/* background: red; */
+}
+main .ma{
+	width: 7.5rem;
+	/* height: 3rem; */
+	/* background: white; */
+	margin: 0 auto;
+}
+main .ma img{
+	display: block;
+	padding-top: 1rem;
+	/* padding-left: 1.2rem; */
+	margin:0 auto;
+}
+main p{
+	font-size: 0.5rem;
+	color: #F19149;
+	text-align: center;
+	margin-top: 1rem;
+}
+main pre{
+	font-size: 0.5rem;
+	color: #F19149;
+	text-align: center;
+}

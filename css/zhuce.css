@@ -1,0 +1,90 @@
+/*
+* @Author: 13545
+* @Date:   2018-11-12 10:51:56
+* @Last Modified by:   13545
+* @Last Modified time: 2018-11-12 11:01:30
+*/
+.beijing{
+	width: 7.5rem;
+	height:15rem;
+	background-image: url('../img/20.jpg');
+	background-size:100% 100%;
+}
+.beijing header .title{
+	width: 2rem;
+	height: 1rem;
+	border-radius: 1rem;
+	background: orange;
+	color: white;
+	font-size: 0.6rem;
+	text-align: center;
+	padding-top: 0.1rem;
+	margin-left: 5rem;
+}
+.beijing .main{
+	width: 7rem;
+	height: 7rem;
+	margin: 0 auto;
+	background: #FFFFFF;
+	margin-top: 2rem;
+}
+.beijing .main p{
+	font-size: 0.5rem;
+	text-align: center;
+	color: #F49553;
+}
+.beijing .main pre{
+	font-size: 0.5rem;
+	text-align: center;
+	color: #F8C2A1;
+}
+.beijing .main .d1{
+	width: 7rem;
+	height: 1rem;
+	/* background: red; */
+	margin-bottom: 0.1rem;
+
+}
+.beijing .main .d11{
+	display: inline-block;
+	width: 1rem;
+	height:1rem;
+	/* background: red; */
+	position: relative;
+}
+.beijing .main .d11 img{
+	width:1rem;
+	height: 1rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 0.4rem;
+}
+.beijing .main .d1 input{
+	display: inline-block;
+	width: 3rem;
+	height:1rem;
+	border: none;
+	border-bottom: 0.01rem solid orange;
+	margin-top: 0;
+}
+.beijing .main .d1 p{
+	display: inline-block;
+	font-size: 0.4rem;
+}
+.dibu{
+	width: 2rem;
+	height: 1rem;
+	border-radius: 1rem;
+	background: #999999;
+	margin: 0 auto;
+	margin-top: 1.5rem;
+	position: relative;
+}
+.dibu a{
+	font-size: 0.8rem;
+	color: #FFFFFF;
+	position: absolute;
+	left: 0.15rem;
+	top: 0;
+}

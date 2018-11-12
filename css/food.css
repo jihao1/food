@@ -1,0 +1,263 @@
+/*
+* @Author: 13545
+* @Date:   2018-11-07 11:07:53
+* @Last Modified by:   13545
+* @Last Modified time: 2018-11-09 14:47:32
+*/
+header{
+	width: 7.5rem;
+	height: 0.9rem;
+	background:#F19149;
+}
+header .ltitle{
+	width: 1.2rem;
+	height: 100%;
+	/* background: red; */
+	float: left;
+	color: #F9d488;
+	/* font-size: 0.1rem; */
+	text-align: center;
+	line-height: 0.9rem;
+}
+header .ltitle img{
+	display: block;
+	width: 0.3rem;
+	height: 0.3rem;
+    margin: 0 auto;
+    margin-top: 0.25rem;
+}
+header .ltitle h6{
+	font-size: 0.1rem;
+	transform: translateY(-0.3rem);
+}
+header input{
+    width: 4.26rem;
+    height: 0.42rem;
+    background: #FAAC72;
+    border-radius: 0.21rem;
+    border: none;
+    margin: 0.24rem 0 0 0.25rem;
+    float: left;
+    padding-left: 0.57rem;
+    /* input中输入文字的颜色 */
+    color: red;
+    position: relative;
+}
+/* 修改input中提示性文字的颜色 */
+::-webkit-input-placeholder{
+	color: green;
+}
+header .tu1{
+	width: 0.3rem;
+	height: 0.3rem;
+	position: absolute;
+	left: 1.5rem;
+	top: 0.1rem;
+}
+header .tu2{
+	/* display: block; */
+	width: 0.3rem;
+	height: 0.3rem;
+	position: absolute;
+	left: 5.3rem;
+	top: 0.1rem;
+}
+header .rtitle{
+	width: 1.2rem;
+	height: 100%;
+	/* background: red; */
+	float: left; 
+	color: #F9D488;
+	font-size: 0.1rem;
+	text-align: center;
+	line-height: 0.9rem;
+}
+header .rtitle img{
+	display: block;
+	width: 0.3rem;
+	height: 0.3rem;
+    margin: 0 auto;
+    margin-top: 0.25rem;
+}
+header .rtitle h6{
+	font-size: 0.1rem;
+	transform: translateY(-0.3rem);
+}
+.mian{
+	width: 7.5rem;
+	height: 2.7rem;
+	/* background: blue; */
+}
+img{
+	display: block;
+	width: 7.3rem;
+	height: 2.5rem;
+    margin: 0 auto;
+	margin-top: 0.2rem;
+}
+nav{
+	width: 7.5rem;
+	height: 2.7rem;
+	/* background: red; */
+	/* border: none; */
+}
+nav ul{
+	width: : 7.5rem;
+	height: 2.7rem;
+	margin-top: 0.2rem;
+	/* background: blue; */
+}
+nav ul li{
+	width:1.8rem ;
+	height: 1.3rem;
+	/* background: yellow; */
+	float: left;
+    margin-right: 0.1rem;
+    margin-bottom: 0.1rem;
+}
+nav ul li:nth-child(4){
+	margin-right: 0;
+}
+nav ul li:nth-child(8){
+	margin-right: 0;
+}
+nav ul li img{
+	width: 1.4rem;
+	height: 0.9rem;
+	margin-top: 0;
+}
+nav ul li p{
+	font-size: 0.2rem;
+	text-align: center;
+	margin-top: 0.1rem;
+}
+.pan{
+	width: 7.5rem;
+	height: 100%;
+}
+.paixu{
+	width: 7.5rem;
+	height: 1rem;
+	/* background: red; */
+	margin-top: 0.1rem;
+}
+.paixu .p1{
+	width: 2.5rem;
+	height: 1rem;
+	background: orange;
+	float: left;
+	margin-right: 0.2rem;
+	border: 0.01rem solid orange;
+	border-radius: 0.5rem;
+	font-size: 0.5rem;
+	text-align: center;
+	line-height: 1rem;
+}
+.paixu .p2{
+	width: 2rem;
+	height: 1rem;
+	/* background: blue; */
+	float: left;
+	margin-right: 0.2rem;
+	border: 0.02rem solid orange;
+	border-radius: 0.5rem;
+	font-size: 0.5rem;
+	text-align: center;
+	line-height: 1rem;
+}
+.paixu .p3{
+	width: 2rem;
+	height: 1rem;
+	/* background: blue; */
+	float: left;
+	margin-right: 0.2rem;
+	border: 0.01rem solid orange;
+	border-radius: 0.5rem;
+	font-size: 0.5rem;
+	text-align: center;
+	line-height: 1rem;
+}
+/* 商品 */
+.neirong{
+	width: 7.5rem;
+	height: 100%;
+	margin-bottom: 1rem;
+}
+.dity{
+	width: 7.5rem;
+	height: 2.2rem;
+	box-shadow: 0.1rem 0.1rem 0.1rem #494949;
+	margin-bottom: 0.5rem;
+}
+.dity .dity:nth-child(2){
+	/* margin-top: 0.5rem; */
+	/* margin-bottom: 10rem; */
+} 
+.dity .dity1 img{
+	width: 3.1rem;
+	height: 2.1rem;
+	background: yellow; 
+	display: inline-block;
+	float: left;
+}
+.dity .dity1 .chick{
+	font-size: 0.28rem;
+	display: inline-block;
+	float: left;
+}
+.dity .dity1 .star{
+	width: 1.3rem;
+	height: 0.3rem;
+	/* background: yellow; */
+	float: right;
+	font-size: 0.3rem;
+}
+.dity .dity1 .starr{
+	width: 4.3rem;
+	height: 0.03rem;
+	/* background: green; */
+	float: left;
+	border: 1px dotted #797d82;
+}
+.dity .dity1 h2{
+	font-size: 0.2rem;
+}
+.dity .dity1 h6{
+	font-size: 0.2rem;
+	float: left;
+	color: #454141;
+}
+.dity .time{
+	width: 3.9rem;
+	height: 0.4rem;
+	/* background: orange; */
+	float: left;
+	margin-top: 0.4rem; 
+}
+.dity .time h5{
+	font-size: 0.2rem;
+	float: left;
+	margin-left: 0.1rem;
+}
+.under{
+	width: 7.5rem;
+	height: 1.1rem;
+	background: orange;
+	padding-left: 0.2rem;
+	position: fixed;
+	bottom: 0;
+}
+.under .page{
+	width: 1.2rem;
+	height: 1rem;
+	display: inline-block;
+	margin-right: 0.2rem;
+}
+.under .page h6{
+	font-size: 0.3rem;
+	text-align: center;
+}
+.under .page i{
+	font-size: 0.6rem;
+	/* color: orange; */
+}

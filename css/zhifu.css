@@ -1,0 +1,141 @@
+/*
+* @Author: 13545
+* @Date:   2018-11-11 15:17:41
+* @Last Modified by:   13545
+* @Last Modified time: 2018-11-12 11:50:48
+*/
+header{
+	width: 7.5rem;
+	height: 100%;
+	background: #F19149;
+}
+header img{
+	display: block;
+	float: left;
+	padding-top: 0.3rem;
+	margin-left: 0.3rem;
+}
+header .title{
+	font-size: 0.4rem;
+	color: #FEFEFE;
+	text-align: center;
+	padding-top: 0.2rem;
+}
+.btn{
+	width: 7.5rem;
+	/* height: 1rem; */
+	/* background: blue; */
+	padding-left: 1rem;
+	margin-top: 0.2rem;
+	margin-bottom: 0.2rem;
+}
+.btn h2{
+	font-size: 0.4rem;
+	color: orange;
+}
+.btn p{
+	font-size: 0.3rem;
+}
+main{
+	width: 7.5rem;
+	height: 10rem;
+	background: #F19149;
+}
+main .p1{
+	width: 7.5rem;
+	height: 1rem;
+	/* background: blue; */
+    position: relative;
+}
+main .p1 p{
+	font-size: 0.5rem;
+	padding-left: 2.5rem;
+	color: white;
+}
+main .p1 pre{
+	font-size: 0.5rem;
+	/* text-align: center; */
+	/* padding-left: 1.9rem; */
+	position: absolute;
+	top: 0.3rem;
+	left: 1.9rem;
+	color: rgba(1, 0, 0, 0.3)
+}
+main .weixin{
+	padding-left: 0.2rem;
+}
+main .zhifubao{
+	float: right;
+	padding-left: 0.5rem;
+	padding-top: 0.1rem;
+}
+main .qita{
+	width: 7.5rem;
+	height: 1rem;
+	/* background: yellow; */
+	position: relative;
+}
+main .qita p{
+	font-size: 0.5rem;
+	padding-left: 2.5rem;
+	color: white;
+}
+main .qita pre{
+	font-size: 0.5rem;
+	/* text-align: center; */
+	/* padding-left: 1.9rem; */
+	position: absolute;
+	top: 0.3rem;
+	left: 1.9rem;
+	color: rgba(1, 0, 0, 0.3)
+}
+main .card .bank{
+	width: 5rem;
+	height: 1rem;
+	/* background: yellow; */
+	float: right;
+    margin-right:1.5rem;
+    margin-top: 0.2rem;
+    border-bottom: 0.01rem solid black;
+}
+main .card .bank p{
+	font-size: 0.4rem;
+	color:#FCE9DF;
+}
+main .card .bank pre{
+	font-size: 0.4rem;
+	color: #FCE9DF;
+}
+main .dibu{
+	width: 5.1rem;
+    height: 1rem;
+    background: red;
+    margin: 0 auto;
+    border-radius: 1rem;
+    position: relative;
+}
+main .dibu .dian1{
+	width: 0.2rem;
+	height: 0.2rem;
+	background: white;
+	border-radius: 0.2rem;
+	position: absolute;
+	left: 0.1rem;
+	top: 0.5rem;
+}
+main .dibu a{
+	display: inline-block;
+	float: left;
+    font-size: 0.8rem;
+    padding-left: 0.8rem;
+	/* margin: 0 auto; */
+}
+main .dibu .dian2{
+	width: 0.2rem;
+	height: 0.2rem;
+	background: white;
+	border-radius: 0.2rem;
+	position: absolute;
+	right: 0.1rem;
+	top: 0.5rem;
+}

@@ -1,0 +1,193 @@
+/*
+* @Author: Administrator
+* @Date:   2018-11-07 11:07:48
+* @Last Modified by:   13545
+* @Last Modified time: 2018-11-12 15:44:36
+*/
+header{
+	width: 7.5rem;
+	height: 100%;
+	/* background: red; */
+	/* display: flex; */
+	background-image: url('../img/11.jpg');
+	background-size: cover;
+}
+header .title{
+	width: 7.5rem;
+	height: 0.6rem;
+	/* background: yellow; */
+	font-size: 0.4rem;
+	color: white;
+}
+header .title h6{
+	display: inline-block;
+	margin-left: 2.5rem;
+	color: white;
+}
+header .title .icon-lianjie1{
+	margin-left: 1.5rem;
+}
+header .title .icon-fanhui{
+	margin-left: 0.3rem;
+}
+header .list{
+	width: 100%;
+	height: 2.2rem;
+	/* background: green; */
+	padding: 0.3rem;
+	display: flex;
+	margin-bottom: 0.2rem;
+}
+header .list .trai{
+	width: 1.8rem;
+	height: 1.8rem;
+	/* background: red; */
+	text-align: center;
+	padding-top: 0.1rem;
+}
+header .list .traii{
+	width: 4rem;
+	height: 1.8rem;
+	/* background: orange; */
+	margin-left: 0.3rem;
+	color: white;
+}
+header .list .traii ul{
+	font-size: 0.1rem;
+}
+header .list .traii ul li:nth-child(2){
+	color: #b5b1ad;
+}
+header .list .traii ul li:nth-child(4){
+	color: #b5b1ad;
+}
+header .list .traii ul li:nth-child(5){
+	color: #b5b1ad;
+}
+main{
+	width: 7.5rem;
+	height: 100%;
+	margin-top: 1rem;
+}
+main .comm{
+	width: 100%;
+	height: 0.9rem;
+	/* background: red; */
+	display: flex;
+	justify-content: space-around;
+	padding: 0.2rem;
+}
+main .comm h6{
+	font-size: 0.3rem;
+	text-align: center;
+}
+main .style{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+main .stylee li:hover{
+	color: white;
+	background: blue;
+}
+main .stylee{
+	width: 1.8rem;
+	height: 4rem;
+	/* background: yellow; */
+	margin-left: 0.2rem;
+}
+main .stylep{
+	width: 5.3rem;
+	height: 11.5rem;
+	/* background: green; */
+	overflow-y: auto;
+}
+main .stylee ul li{
+	font-size: 0.25rem;
+	text-align: center;
+	line-height: 0.5rem;
+	background: #cbc9c9;
+	margin-bottom: 0.1rem;
+}
+main .stylep .stylex{
+	width: 5.2rem;
+	height: 2.2rem;
+	/* background: orange;	 */
+	padding-left: 0.1rem;
+	display: flex;
+	box-shadow: 0.02rem 0.02rem 0.05rem #aeadad;
+
+}
+main .stylep .stylex .brocc{
+	width: 2.2rem;
+	height: 2.2rem;
+	/* background: #333; */
+	padding: 0.2rem;
+
+}
+main .stylep .stylex .brocc img{
+	width: 2rem;
+	height: 1.7rem;
+}
+main .stylep .stylex .broc{
+	display: flex;
+	width: 2rem;
+	justify-content: space-between;
+	color: #010101;
+}
+main .stylep .stylex .broc p{
+	color: #9d9d9d;
+}
+main .stylep .stylex ul{
+	width: 2.8rem;
+	height: 2.2rem;
+	/* background: #0600f5; */
+	font-size: 0.3rem;
+	margin-left: 0.1rem;
+	color: #9d9d9d;
+}
+main .stylep .stylex ul li:nth-child(3){
+	color: red;
+	font-size: 0.3rem;
+	margin-top: 0.4rem;
+	position: relative;
+}
+main .stylep .stylex ul i{
+	color: red;
+	margin-left: 2rem;
+	position: absolute;
+	margin-top: -0.3rem;
+	font-size: 0.3rem;
+}
+main .fixd{
+	width: 100%;
+	height: 1.5rem;
+	/* background: red; */
+	display: flex;
+	box-shadow: 0.02rem 0.02rem 0.05rem #aeadad;
+}
+main .fixd .ico{
+	width: 2rem;
+	height: 1.5rem;
+	/* background: yellow; */
+}
+main .fixd .icon-gouwuchekong{
+	font-size: 1rem;
+	padding-left: 0.2rem;
+}
+main .fixd h3{
+	font-size: 0.3rem;
+	margin-top: 0.45rem;
+}
+main .fixd .pay{
+	width: 2.2rem;
+	height: 1.5rem;
+	/* background: orange; */
+	margin-left: 0.1rem;
+}
+main .fixd .pay h4{
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 1.5rem;
+	background: #e3e3e3;
+}

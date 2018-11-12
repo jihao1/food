@@ -1,0 +1,139 @@
+/*
+* @Author: 13545
+* @Date:   2018-11-12 10:51:56
+* @Last Modified by:   13545
+* @Last Modified time: 2018-11-12 18:42:40
+*/
+header{
+	width: 7.5rem;
+	height: 1.2rem;
+	background: #F19149;
+	position: relative;
+}
+header .icon-fanhui{
+	font-size: 0.6rem;
+	color:#F7C198;
+	position: absolute;
+	left: 1rem;
+	top: 0.3rem;
+}
+header .title{
+	width: 7.5rem;
+	height: 1.2rem;
+	float: left;
+	color: #FCEFE7;
+	text-align: center;
+	/* line-height: 0.9rem; */
+}
+header .title P{
+	font-size: 0.5rem;
+	color: #FCEFE7;
+}
+header .title pre{
+	font-size: 0.5rem;
+	color: #FCEFE7;
+}
+nav{
+	width: 7.5rem;
+	height: 100%;
+	/* background: red; */
+	margin-top: 0.5rem;
+}
+nav .p1{
+	/* display: inline-block; */
+	width: 6.5rem;
+	height: 2rem;
+	/* background: yellow; */
+	margin: 0 auto;
+}
+nav .p1 .p2{
+	width: 2rem;
+	height: 2rem;
+	/* background: blue; */
+	float: left;
+} 	
+nav .p1 .p2 img{
+	display: inline-block;
+	width: 2rem;
+	height:2rem;
+}
+nav .p1 p{
+	font-size: 0.3rem;
+	color: black;
+	/* float: left; */
+}
+nav .p1 .p3{
+	width: 1.5rem;
+	height: 0.5rem;
+	background: #F19149;
+	border-radius: 0.5rem;
+	float: left;
+	margin-top: 0.1rem;
+	margin-right: 0.5rem;
+	position: relative;
+}
+nav .p1 .p3:nth-child(2){
+	margin-right: 0;
+}
+nav .p1 .p3 a{
+	font-size: 0.3rem;
+	color: white;
+	position: absolute;
+	top: 0;
+	left: 0.1rem;
+}
+.tuijian{
+	width: 7.5rem;
+	margin-top: 0.5rem;
+}
+.tuijian P{
+	font-size: 0.5rem;
+	color: orange;
+	text-align: center;
+}
+.dibu{
+	width: 7.5rem;
+	height: 7rem;
+	/* background: red; */
+	margin-top: 0.5rem;
+}
+.dibu ul li{
+	width: 3rem;
+	height: 3rem;
+	/* background: yellow; */
+	float: left;
+	margin-top: 0.5rem;
+	margin-right: 0.5rem;
+}
+.dibu ul li:nth-child(1){
+	margin-left: 0.5rem;
+}
+.dibu ul li:nth-child(3){
+	margin-left: 0.5rem;
+}
+.dibu ul li .tup{
+	width: 3rem;
+	height: 2rem;
+	/* background: blue; */
+}
+.dibu ul li .left{
+	width: 1.7rem;
+	height: 1rem;
+	/* background: green; */
+	float: left;
+}
+.dibu ul li .left p{
+	font-size: 0.3rem;
+}
+.dibu ul li .right{
+	width: 1.3rem;
+	height: 1rem;
+	/* background: orange; */
+	float: right;
+}
+.dibu ul li .right p{
+	font-size: 0.3rem;
+	color: red;
+	padding-top: 0.3rem;
+	padding-left: 0.3rem;
+}
